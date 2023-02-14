@@ -1,0 +1,112 @@
+body {
+    margin:0;
+}
+/*
+@media screen and (min-width: 240px) {
+    body {
+        max-width: 240px;
+    }
+
+    #content {
+  display: flex;
+      flex-wrap: wrap;
+        width: 100%;
+    }
+
+    #left {
+        margin:50px;
+        width:100%;
+    }
+
+    #center {width: 300px
+        ;height: 50px;
+    margin-top:300px;}
+
+    /*horizontal
+    #right {
+        width: 100%;
+    }
+
+   
+}*/
+#header {
+    background-color: white;
+    color: black;
+    height: 60px;
+}
+
+#content {
+    position: relative;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 100px;
+    height: 600px;
+    background-attachment: fixed;
+    background-image: url("background.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Georama:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Quicksand&display=swap');
+
+#left {
+    padding: 60px;
+    height: min-content;
+    margin: 0;
+    color: black;
+    background-color: white;
+    float: left;
+    position: relative;
+}
+
+#left>h1 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 40px;
+}
+
+#left>h2 {
+    font-family: 'Georama', sans-serif;
+}
+
+#circle {
+    height: 25px;
+    width: 25px;
+    background-color: pink;
+}
+
+#center {
+    margin-top: -100px;
+    margin-bottom: -100px;
+    background-color: pink;
+    margin-left: -100px;
+    margin-right: -100px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+#right {
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 300px;
+    padding: 20px;
+    height: min-content;
+    color: white;
+    float: right;
+    background-color: black;
+    position: relative;
+    padding: 60px;
+}
+
+
+
+
+/**/
+#leftContainer{
+    float: left;
+    width: 50%;
+}
+
+#rightContainer {
+    float: right;
+    width: 50%;
+}
